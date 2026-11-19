@@ -1,0 +1,118 @@
+---
+title: "STAT 344 Project: Average Weight of Pokemon"
+output: html_document
+---
+
+## Data
+
+We collected weights (in kg) for 100 Pokemon species. The sample was selected using stratified simple random sampling without replacement, with generation as the stratum.
+
+```{r}
+# Read the data
+pokemon <- read.csv("Pokeman.csv")
+
+# Quick checks
+head(pokemon)
+length(unique(pokemon$pokemonID))
+table(pokemon$generation)
+summary(pokemon$weight_kg)
+```
+
+## Sample summaries
+
+```{r}
+# Population sizes and weights
+generation <- c("I", "II", "III", "IV", "V",
+                "VI", "VII", "VIII", "IX")
+
+N_g <- c(151, 100, 135, 107, 156, 72, 88, 96, 120)
+W_g <- N_g / sum(N_g)
+
+# Sample mean and variance within each generation
+n_g <- numeric(9)
+ybar_g <- numeric(9)
+s2_g <- numeric(9)
+
+for (g in 1:9) {
+  y <- pokemon$weight_kg[pokemon$generation == generation[g]]
+
+  n_g[g] <- length(y)
+  ybar_g[g] <- mean(y)
+  s2_g[g] <- var(y)
+}
+
+summary_table <- data.frame(
+  Generation = generation,
+  N_g = N_g,
+  n_g = n_g,
+  W_g = round(W_g, 4),
+  Mean = round(ybar_g, 2),
+  Variance = round(s2_g, 2),
+  SD = round(sqrt(s2_g), 2)
+)
+
+knitr::kable(summary_table)
+```
+
+## Plots
+
+```{r, fig.width=7, fig.height=4.5}
+# Histogram of weights
+hist(pokemon$weight_kg,
+     main = "Pokemon Weight Distribution",
+     xlab = "Weight (kg)",
+     ylab = "Frequency",
+     col = "yellow",
+     breaks = 15)
+```
+
+```{r, fig.width=7, fig.height=4.5}
+# Boxplot by generation
+pokemon$generation <- factor(pokemon$generation,
+                             levels = generation)
+
+boxplot(weight_kg ~ generation,
+        data = pokemon,
+        main = "Pokemon Weight by Generation",
+        xlab = "Generation",
+        ylab = "Weight (kg)",
+        col = "#6495ED")
+```
+
+## Stratified estimate
+
+The population weights are $W_g = N_g/N$. We estimate the population mean using
+
+$$
+\hat{\bar{Y}}_{st} = \sum_{g=1}^{9} W_g\bar{y}_g.
+$$
+
+Under stratified SRSWOR, the estimated sampling variance is
+
+$$
+v^2(\hat{\bar{Y}}_{st}) =
+\sum_{g=1}^{9} W_g^2\left(\frac{1}{n_g}-\frac{1}{N_g}\right)s_g^2.
+$$
+
+```{r}
+# Stratified mean, variance, and standard error
+ybar_st <- sum(W_g * ybar_g)
+v2_st <- sum(W_g^2 * (1/n_g - 1/N_g) * s2_g)
+SE_st <- sqrt(v2_st)
+
+# 95% confidence interval
+lower <- ybar_st - 1.96 * SE_st
+upper <- ybar_st + 1.96 * SE_st
+
+results <- data.frame(
+  Estimate = round(ybar_st, 2),
+  Variance = round(v2_st, 2),
+  SE = round(SE_st, 2),
+  CI_Lower = round(lower, 2),
+  CI_Upper = round(upper, 2)
+)
+
+knitr::kable(results)
+```
+
+The estimated mean Pokemon weight is **`r round(ybar_st, 2)` kg**, with an estimated standard error of **`r round(SE_st, 2)` kg**. The approximate 95% confidence interval is **(`r round(lower, 2)`, `r round(upper, 2)`) kg**.
