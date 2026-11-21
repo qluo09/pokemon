@@ -1,7 +1,7 @@
 # STAT 344 Project - Pokemon Weight
 
 # Read data
-pokemon <- read.csv("Pokeman.csv")
+pokemon <- read.csv("pokemon_data.csv")
 
 head(pokemon)
 table(pokemon$generation)
