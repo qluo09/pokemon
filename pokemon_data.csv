@@ -1,0 +1,101 @@
+generation,pokemonID,pokemonName,weight_kg,formUsed,sourceURL,verified,notes
+I,76,Golem,300,Standard,https://bulbapedia.bulbagarden.net/wiki/Golem_(Pok%C3%A9mon),yes,Alolan Form excluded
+I,38,Ninetales,19.9,Standard,https://bulbapedia.bulbagarden.net/wiki/Ninetales_(Pok%C3%A9mon),yes,Alolan Form excluded
+I,114,Tangela,35,Standard,https://bulbapedia.bulbagarden.net/wiki/Tangela_(Pok%C3%A9mon),yes,
+I,103,Exeggutor,120,Standard,https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon),yes,Alolan Form excluded
+I,96,Drowzee,32.4,Standard,https://bulbapedia.bulbagarden.net/wiki/Drowzee_(Pok%C3%A9mon),yes,
+I,109,Koffing,1,Standard,https://bulbapedia.bulbagarden.net/wiki/Koffing_(Pok%C3%A9mon),yes,
+I,107,Hitmonchan,50.2,Standard,https://bulbapedia.bulbagarden.net/wiki/Hitmonchan_(Pok%C3%A9mon),yes,
+I,150,Mewtwo,122,Standard,https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon),yes,Mega Mewtwo X/Y excluded
+I,92,Gastly,0.1,Standard,https://bulbapedia.bulbagarden.net/wiki/Gastly_(Pok%C3%A9mon),yes,
+I,121,Starmie,80,Standard,https://bulbapedia.bulbagarden.net/wiki/Starmie_(Pok%C3%A9mon),yes,Mega Starmie excluded
+I,26,Raichu,30,Standard,https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon),yes,Alolan and Mega Forms excluded
+I,118,Goldeen,15,Standard,https://bulbapedia.bulbagarden.net/wiki/Goldeen_(Pok%C3%A9mon),yes,
+I,144,Articuno,55.4,Standard,https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon),yes,Galarian Form excluded
+I,49,Venomoth,12.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon),yes,
+I,111,Rhyhorn,115,Standard,https://bulbapedia.bulbagarden.net/wiki/Rhyhorn_(Pok%C3%A9mon),yes,
+II,230,Kingdra,152,Standard,https://bulbapedia.bulbagarden.net/wiki/Kingdra_(Pok%C3%A9mon),yes,
+II,215,Sneasel,28,Standard,https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon),yes,Hisuian Form excluded
+II,163,Hoothoot,21.2,Standard,https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon),yes,
+II,199,Slowking,79.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon),yes,Galarian Form excluded; original form selected.
+II,192,Sunflora,8.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Sunflora_(Pok%C3%A9mon),yes,
+II,218,Slugma,35,Standard,https://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon),yes,
+II,214,Heracross,54,Standard,https://bulbapedia.bulbagarden.net/wiki/Heracross_(Pok%C3%A9mon),yes,Mega Heracross excluded; standard form selected.
+II,234,Stantler,71.2,Standard,https://bulbapedia.bulbagarden.net/wiki/Stantler_(Pok%C3%A9mon),yes,
+II,241,Miltank,75.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Miltank_(Pok%C3%A9mon),yes,
+II,225,Delibird,16,Standard,https://bulbapedia.bulbagarden.net/wiki/Delibird_(Pok%C3%A9mon),yes,
+III,317,Swalot,80,Standard,https://bulbapedia.bulbagarden.net/wiki/Swalot_(Pok%C3%A9mon),yes,
+III,344,Claydol,108,Standard,https://bulbapedia.bulbagarden.net/wiki/Claydol_(Pok%C3%A9mon),yes,
+III,348,Armaldo,68.2,Standard,https://bulbapedia.bulbagarden.net/wiki/Armaldo_(Pok%C3%A9mon),yes,
+III,284,Masquerain,3.6,Standard,https://bulbapedia.bulbagarden.net/wiki/Masquerain_(Pok%C3%A9mon),yes,
+III,367,Huntail,27,Standard,https://bulbapedia.bulbagarden.net/wiki/Huntail_(Pok%C3%A9mon),yes,
+III,381,Latios,60,Standard,https://bulbapedia.bulbagarden.net/wiki/Latios_(Pok%C3%A9mon),yes,Mega Latios excluded
+III,298,Azurill,2,Standard,https://bulbapedia.bulbagarden.net/wiki/Azurill_(Pok%C3%A9mon),yes,
+III,275,Shiftry,59.6,Standard,https://bulbapedia.bulbagarden.net/wiki/Shiftry_(Pok%C3%A9mon),yes,
+III,333,Swablu,1.2,Standard,https://bulbapedia.bulbagarden.net/wiki/Swablu_(Pok%C3%A9mon),yes,
+III,380,Latias,40,Standard,https://bulbapedia.bulbagarden.net/wiki/Latias_(Pok%C3%A9mon),yes,Mega Latias excluded
+III,274,Nuzleaf,28,Standard,https://bulbapedia.bulbagarden.net/wiki/Nuzleaf_(Pok%C3%A9mon),yes,
+III,279,Pelipper,28,Standard,https://bulbapedia.bulbagarden.net/wiki/Pelipper_(Pok%C3%A9mon),yes,
+III,384,Rayquaza,206.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon),yes,Mega Rayquaza excluded
+IV,465,Tangrowth,128.6,Standard,https://bulbapedia.bulbagarden.net/wiki/Tangrowth_(Pok%C3%A9mon),yes,Professor Tangrowth excluded
+IV,484,Palkia,336,Standard,https://bulbapedia.bulbagarden.net/wiki/Palkia_(Pok%C3%A9mon),yes,Origin Forme excluded
+IV,474,Porygon-Z,34,Standard,https://bulbapedia.bulbagarden.net/wiki/Porygon-Z_(Pok%C3%A9mon),yes,
+IV,449,Hippopotas,49.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Hippopotas_(Pok%C3%A9mon),yes,
+IV,491,Darkrai,50.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Darkrai_(Pok%C3%A9mon),yes,Mega Darkrai excluded
+IV,392,Infernape,55,Standard,https://bulbapedia.bulbagarden.net/wiki/Infernape_(Pok%C3%A9mon),yes,
+IV,430,Honchkrow,27.3,Standard,https://bulbapedia.bulbagarden.net/wiki/Honchkrow_(Pok%C3%A9mon),yes,
+IV,426,Drifblim,15,Standard,https://bulbapedia.bulbagarden.net/wiki/Drifblim_(Pok%C3%A9mon),yes,
+IV,421,Cherrim,9.3,Overcast Form,https://bulbapedia.bulbagarden.net/wiki/Cherrim_(Pok%C3%A9mon),yes,Sunshine form excluded/same weight
+IV,389,Torterra,310,Standard,https://bulbapedia.bulbagarden.net/wiki/Torterra_(Pok%C3%A9mon),yes,
+V,580,Ducklett,5.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Ducklett_(Pok%C3%A9mon),yes,
+V,626,Bouffalant,94.6,Standard,https://bulbapedia.bulbagarden.net/wiki/Bouffalant_(Pok%C3%A9mon),yes,
+V,614,Beartic,260,Standard,https://bulbapedia.bulbagarden.net/wiki/Beartic_(Pok%C3%A9mon),yes,
+V,532,Timburr,12.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Timburr_(Pok%C3%A9mon),yes,
+V,601,Klinklang,81,Standard,https://bulbapedia.bulbagarden.net/wiki/Klinklang_(Pok%C3%A9mon),yes,
+V,570,Zorua,12.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Zorua_(Pok%C3%A9mon),yes,Hisuian regional form excluded; recorded original Unovan Zorua (12.5 kg).
+V,590,Foongus,1,Standard,https://bulbapedia.bulbagarden.net/wiki/Foongus_(Pok%C3%A9mon),yes,
+V,509,Purrloin,10.1,Standard,https://bulbapedia.bulbagarden.net/wiki/Purrloin_(Pok%C3%A9mon),yes,
+V,523,Zebstrika,79.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Zebstrika_(Pok%C3%A9mon),yes,
+V,546,Cottonee,0.6,Standard,https://bulbapedia.bulbagarden.net/wiki/Cottonee_(Pok%C3%A9mon),yes,
+V,520,Tranquill,15,Standard,https://bulbapedia.bulbagarden.net/wiki/Tranquill_(Pok%C3%A9mon),yes,
+V,564,Tirtouga,16.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Tirtouga_(Pok%C3%A9mon),yes,
+V,603,Eelektrik,22,Standard,https://bulbapedia.bulbagarden.net/wiki/Eelektrik_(Pok%C3%A9mon),yes,
+V,629,Vullaby,9,Standard,https://bulbapedia.bulbagarden.net/wiki/Vullaby_(Pok%C3%A9mon),yes,
+V,530,Excadrill,40.4,Standard,https://bulbapedia.bulbagarden.net/wiki/Excadrill_(Pok%C3%A9mon),yes,Mega Excadrill excluded (60.0 kg).
+VI,671,Florges,10,Red Flower Form,https://bulbapedia.bulbagarden.net/wiki/Florges_(Pok%C3%A9mon),yes,"Multiple flower forms; Red Flower selected as the first listed form, all the forms have the same weight"
+VI,696,Tyrunt,26,Standard,https://bulbapedia.bulbagarden.net/wiki/Tyrunt_(Pok%C3%A9mon),yes,
+VI,691,Dragalge,81.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Dragalge_(Pok%C3%A9mon),yes,Mega Dragalge excluded (100.3 kg).
+VI,699,Aurorus,225,Standard,https://bulbapedia.bulbagarden.net/wiki/Aurorus_(Pok%C3%A9mon),yes,
+VI,664,Scatterbug,2.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Scatterbug_(Pok%C3%A9mon),yes,
+VI,669,Flabébé,0.1,Red Flower Form,https://bulbapedia.bulbagarden.net/wiki/Flab%C3%A9b%C3%A9_(Pok%C3%A9mon),yes,"Multiple flower forms; Red Flower selected as the first listed form, all the forms have the same weight"
+VI,710,Pumpkaboo,5,Medium Variety,https://bulbapedia.bulbagarden.net/wiki/Pumpkaboo_(Pok%C3%A9mon),yes,Multiple size forms; Medium Variety selected as the first listed/default form. Other forms have different weights and excluded.
+VII,801,Magearna,80.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Magearna_(Pok%C3%A9mon),yes,Original Color has the same weight (80.5 kg) and excluded; Mega forms excluded.
+VII,736,Grubbin,4.4,Standard,https://bulbapedia.bulbagarden.net/wiki/Grubbin_(Pok%C3%A9mon),yes,
+VII,780,Drampa,185,Standard,https://bulbapedia.bulbagarden.net/wiki/Drampa_(Pok%C3%A9mon),yes,Mega Drampa excluded (240.5 kg).
+VII,734,Yungoos,6,Standard,https://bulbapedia.bulbagarden.net/wiki/Yungoos_(Pok%C3%A9mon),yes,
+VII,757,Salandit,4.8,Standard,https://bulbapedia.bulbagarden.net/wiki/Salandit_(Pok%C3%A9mon),yes,
+VII,791,Solgaleo,230,Standard,https://bulbapedia.bulbagarden.net/wiki/Solgaleo_(Pok%C3%A9mon),yes,
+VII,772,Type: Null,120.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Type:_Null_(Pok%C3%A9mon),yes,
+VII,765,Oranguru,76,Standard,https://bulbapedia.bulbagarden.net/wiki/Oranguru_(Pok%C3%A9mon),yes,
+VII,777,Togedemaru,3.3,Standard,https://bulbapedia.bulbagarden.net/wiki/Togedemaru_(Pok%C3%A9mon),yes,
+VIII,867,Runerigus,66.6,Standard,https://bulbapedia.bulbagarden.net/wiki/Runerigus_(Pok%C3%A9mon),yes,
+VIII,891,Kubfu,12,Standard,https://bulbapedia.bulbagarden.net/wiki/Kubfu_(Pok%C3%A9mon),yes,
+VIII,839,Coalossal,310.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Coalossal_(Pok%C3%A9mon),yes,Gigantamax form excluded; standard form selected.
+VIII,843,Silicobra,7.6,Standard,https://bulbapedia.bulbagarden.net/wiki/Silicobra_(Pok%C3%A9mon),yes,
+VIII,842,Appletun,13,Standard,https://bulbapedia.bulbagarden.net/wiki/Appletun_(Pok%C3%A9mon),yes,Gigantamax form excluded
+VIII,810,Grookey,5,Standard,https://bulbapedia.bulbagarden.net/wiki/Grookey_(Pok%C3%A9mon),yes,
+VIII,855,Polteageist,0.4,Phony Form,https://bulbapedia.bulbagarden.net/wiki/Polteageist_(Pok%C3%A9mon),yes,Both Phony and Antique Forms weigh 0.4 kg; Phony Form selected as the standard form.
+VIII,892,Urshifu,105,Single Strike Style,https://bulbapedia.bulbagarden.net/wiki/Urshifu_(Pok%C3%A9mon),yes,Rapid Strike + both gigantamax forms excluded
+VIII,833,Chewtle,8.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Chewtle_(Pok%C3%A9mon),yes,
+IX,1000,Gholdengo,30,Standard,https://bulbapedia.bulbagarden.net/wiki/Gholdengo_(Pok%C3%A9mon),yes,
+IX,985,Scream Tail,8,Standard,https://bulbapedia.bulbagarden.net/wiki/Scream_Tail_(Pok%C3%A9mon),yes,
+IX,989,Sandy Shocks,60,Standard,https://bulbapedia.bulbagarden.net/wiki/Sandy_Shocks_(Pok%C3%A9mon),yes,
+IX,1008,Miraidon,240,Ultimate Mode,https://bulbapedia.bulbagarden.net/wiki/Miraidon_(Pok%C3%A9mon),yes,Low-Power Mode has the same weight and excluded
+IX,958,Tinkatuff,59.1,Standard,https://bulbapedia.bulbagarden.net/wiki/Tinkatuff_(Pok%C3%A9mon),yes,
+IX,962,Bombirdier,42.9,Standard,https://bulbapedia.bulbagarden.net/wiki/Bombirdier_(Pok%C3%A9mon),yes,
+IX,935,Charcadet,10.5,Standard,https://bulbapedia.bulbagarden.net/wiki/Charcadet_(Pok%C3%A9mon),yes,
+IX,917,Tarountula,4,Standard,https://bulbapedia.bulbagarden.net/wiki/Tarountula_(Pok%C3%A9mon),yes,
+IX,972,Houndstone,15,Standard,https://bulbapedia.bulbagarden.net/wiki/Houndstone_(Pok%C3%A9mon),yes,
+IX,906,Sprigatito,4.1,Standard,https://bulbapedia.bulbagarden.net/wiki/Sprigatito_(Pok%C3%A9mon),yes,
+IX,983,Kingambit,120,Standard,https://bulbapedia.bulbagarden.net/wiki/Kingambit_(Pok%C3%A9mon),yes,
+IX,981,Farigiraf,160,Standard,https://bulbapedia.bulbagarden.net/wiki/Farigiraf_(Pok%C3%A9mon),yes,
