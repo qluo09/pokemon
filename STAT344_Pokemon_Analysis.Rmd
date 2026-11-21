@@ -9,7 +9,7 @@ We collected weights (in kg) for 100 Pokemon species. The sample was selected us
 
 ```{r}
 # Read the data
-pokemon <- read.csv("Pokeman.csv")
+pokemon <- read.csv("pokemon_data.csv")
 
 # Quick checks
 head(pokemon)
